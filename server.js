@@ -24,7 +24,7 @@ app.get("/stream", (req, res) => {
 });
 
 // Start the server and bind it to all network interfaces (0.0.0.0)
-server.listen(port, '0.0.0.0', () => {
+server.listen(port,  () => {
     console.log(`Server started: 0.0.0.0:${port}`);
 });
 
